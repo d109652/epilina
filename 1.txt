@@ -1,0 +1,19 @@
+
+.sidebar_section:not(:last-child)
+{
+	margin-bottom: 60px;
+}
+.sidebar_section_title
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #384158;
+	line-height: 0.75;
+}
+
+.sidebar_gallery
+{
+	margin-top: 34px;
+}
+

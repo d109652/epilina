@@ -274,7 +274,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #14bdee;
+	background: #c16df1;
 }
 .header.scrolled .top_bar
 {
@@ -399,7 +399,7 @@ section
 }
 .logo_text span
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .header.scrolled .logo
 {
@@ -448,7 +448,7 @@ section
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .main_nav li.active::after
 {
@@ -458,7 +458,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #14bdee;
+	background: #c16df1;
 	content: '';
 }
 .search_button
@@ -485,7 +485,7 @@ section
 .search_button:hover i,
 .shopping_cart:hover i
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .header_search_form
 {
@@ -499,7 +499,7 @@ section
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-	background: #14bdee;
+	background: #c16df1;
 	z-index: -1;
 	opacity: 0;
 	-webkit-transition: all 400ms ease;
@@ -661,7 +661,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .menu .search
 {
@@ -890,9 +890,10 @@ section
 }
 .home_search_button
 {
-	width: 120px;
+	width: 140px;
 	height: 46px;
-	background: #14bdee;
+	margin-left: : 300px;
+	background: #c16df1;
 	border: none;
 	outline: none;
 	border-radius: 3px;
@@ -1460,6 +1461,7 @@ section
 .team_row
 {
 	margin-top: 43px;
+	justify-content:space-around;
 }
 .team_col
 {
@@ -1471,8 +1473,8 @@ section
 }
 .team_image
 {
-	width: 180px;
-	height: 160px;
+	width: 380px;
+	height: 360px;
 	border-radius: 6px;
 	overflow: hidden;
 	margin-left: auto;
