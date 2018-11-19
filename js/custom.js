@@ -46,7 +46,7 @@ $(document).ready(function()
 	initHeaderSearch();
 	initHomeSlider();
 	initMilestones();
-
+initColorbox();
 	/*
 
 	2. Set Header
@@ -235,5 +235,20 @@ $(document).ready(function()
 	    	});
 		}
 	}
+
+
+
+function initColorbox()
+{
+	if($('.gallery_item').length)
+	{
+		$('.colorbox').colorbox(
+		{
+			rel:'colorbox',
+			photo: true,
+			maxWidth: '90%'
+		});
+	}
+}
 
 });

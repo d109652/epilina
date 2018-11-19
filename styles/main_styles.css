@@ -2026,3 +2026,45 @@ section
 {
 	color: #14bdee;
 }
+
+
+.sidebar_gallery
+{
+	margin-top: 34px;
+}
+
+.gallery_item
+{
+	position: relative;
+	width: calc((100% - 36px) / 3);
+	margin-bottom: 18px;
+	cursor: pointer;
+}
+.gallery_item img
+{
+	width: 100%;
+}
+.gallery_item_overlay
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(20,189,238,0.7);
+	opacity: 0;
+	pointer-events: none;
+	font-size: 33px;
+	font-weight: 300;
+	color: #FFFFFF;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.gallery_item:hover .gallery_item_overlay
+{
+	opacity: 1;
+}
