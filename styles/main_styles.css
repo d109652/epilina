@@ -563,7 +563,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 
 /*********************************
@@ -635,7 +635,7 @@ section
 }
 .menu_close:hover div
 {
-	background: #937c6f;
+	background: #c16df1;
 }
 .menu .logo
 {
@@ -817,14 +817,17 @@ section
 	width: 832px;
 	margin: 0 auto;
 	margin-top: 35px;
+	text-align: center;
 }
-.home_search_form div
+/*
+.home_search_form
 {
 	width: calc(100% - 140px);
 	height: 46px;
 	background: #FFFFFF;
-	border-radius: 3px;
+	border-radius: 30px;
 }
+*/
 .home_search_input
 {
 	width: 33.33333333%;
@@ -837,6 +840,7 @@ section
 {
 	border-right: solid 1px #e5e5e5;
 }
+/*
 .home_search_input::-webkit-input-placeholder
 {
 	font-family: 'Roboto', sans-serif;
@@ -872,6 +876,7 @@ section
 	font-weight: 400 !important;
 	color: #b5b8be !important;
 }
+*/
 .dropdown_item_select
 {
 	position: relative;
@@ -892,7 +897,7 @@ section
 {
 	width: 140px;
 	height: 46px;
-	margin-left: : 300px;
+	margin-left: auto;
 	background: #c16df1;
 	border: none;
 	outline: none;
@@ -903,6 +908,11 @@ section
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	cursor: pointer;
+padding-top:13px;
+margin-left:10px;
+}
+.home_search_button:hover{
+	color: #384158;
 }
 .home_slider_nav
 {
@@ -1329,7 +1339,7 @@ section
 /*********************************
 10. Events
 *********************************/
-
+/*
 .events
 {
 	width: 100%;
@@ -1447,7 +1457,7 @@ section
 {
 	margin-top: 12px;
 }
-
+*/
 /*********************************
 11. Team
 *********************************/
@@ -1527,7 +1537,7 @@ section
 }
 .team_title a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .team_subtitle
 {
@@ -1560,7 +1570,7 @@ section
 }
 .social_list ul li:hover a i
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .team_col .team_item
 {
@@ -1581,7 +1591,7 @@ section
 /*********************************
 12. News
 *********************************/
-
+/*
 .news
 {
 	width: 100%;
@@ -1630,7 +1640,7 @@ section
 }
 .news_post_large_title a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .news_post_meta
 {
@@ -1663,7 +1673,7 @@ section
 }
 .news_post_meta ul li a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .news_post_text
 {
@@ -1688,7 +1698,7 @@ section
 }
 .news_post_link a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .news_posts_small
 {
@@ -1718,13 +1728,13 @@ section
 }
 .news_post_small_title a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
-
+*/
 /*********************************
 13. Newsletter
 *********************************/
-
+/*
 .newsletter
 {
 	width: 100%;
@@ -1821,11 +1831,11 @@ section
 	cursor: pointer;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #14bdee;
+	color: #c16df1;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 }
-
+*/
 /*********************************
 14. Footer
 *********************************/
@@ -1869,7 +1879,7 @@ section
 }
 .footer_logo_text span
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .footer_title
 {
@@ -1880,8 +1890,9 @@ section
 	line-height: 0.75;
 }
 .footer_logo_container
-{
+{display: inline-block;
 	margin-top: -14px;
+	margin-right: 200px;
 }
 .footer_about_text
 {
@@ -1892,7 +1903,7 @@ section
 	color: #FFFFFF;
 }
 .footer_social
-{
+{display: inline-block;
 	margin-top: 23px;
 }
 .footer_social ul li
@@ -1925,7 +1936,7 @@ section
 }
 .footer_social ul li:hover
 {
-	background: #14bdee;
+	background: #c16df1;
 }
 .footer_contact
 {
@@ -1975,7 +1986,7 @@ section
 }
 .footer_links_container ul li a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .footer_mobile
 {
@@ -2015,7 +2026,7 @@ section
 }
 .cr_text a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 .cr_list li:not(:last-child)
 {
@@ -2033,7 +2044,7 @@ section
 }
 .cr_list li a:hover
 {
-	color: #14bdee;
+	color: #c16df1;
 }
 
 
@@ -2061,7 +2072,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(20,189,238,0.7);
+	background: rgba(193,109,241,0.7);
 	opacity: 0;
 	pointer-events: none;
 	font-size: 33px;
@@ -2085,12 +2096,25 @@ section
 	font-weight: 700;
 	color: #384158;
 	line-height: 0.75;
+	text-align: center;
 }
-.sidebar_section{
-	margin-top:150px;
+.section_title{
+	margin: 15px 0;
+	padding-top:50px;
+		text-align: center;
 }
-
+.contacts{
+	display:flex;
+	flex-wrap:wrap;
+justify-content: center;
+}
 .contact_map{display:flex;
 	justify-content: center;
-	margin-bottom:30px;
+
+
+	flex-basis:450px;
+}
+.contact-info{
+		margin:0px 20px 30px;
+		flex-basis:650px
 }

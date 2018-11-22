@@ -275,6 +275,16 @@
 	{
 		font-size: 13px;
 	}
+	.contacts{
+		justify-content:center;
+	}
+	.contact_map{
+		margin:20px;
+
+	}
+	.contact-info{
+			margin:20px;
+	}
 }
 
 /************
@@ -352,7 +362,17 @@
 	.team_col:nth-child(even) .team_item
 	{
 		padding-left: 0px;
-	}
+}
+.contacts{
+	justify-content:center;
+}
+.contact_map{
+	margin:20px;
+
+}
+.contact-info{
+		margin:20px;
+}
 }
 
 /************
@@ -399,15 +419,26 @@
 	{
 		font-size: 12px;
 	}
-	.home_search_button
+/*	.home_search_button
 	{
 		width: 100px;
 		height: 40px;
 	}
+	*/
 	.newsletter_form_container
 	{
 		width: 100%;
 		padding-left: 0;
+	}
+	.contacts{
+		justify-content:center;
+	}
+	.contact_map{
+		margin:20px;
+
+	}
+	.contact-info{
+			margin:20px;
 	}
 }
 
