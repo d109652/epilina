@@ -55,7 +55,7 @@ initColorbox();
 
 	function setHeader()
 	{
-		if($(window).scrollTop() > 100)
+		if($(window).scrollTop() > 500)
 		{
 			header.addClass('scrolled');
 		}

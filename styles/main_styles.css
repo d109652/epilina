@@ -1010,9 +1010,15 @@ margin-left:10px;
 	padding-top: 93px;
 	padding-bottom: 100px;
 }
-.courses_row
+.device_row
 {
 	margin-top: 45px;
+}
+.course_col{
+	display:flex;
+	align-items:stretch;
+	align-content:stretch;
+
 }
 .course
 {
