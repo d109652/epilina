@@ -252,3 +252,60 @@ function initColorbox()
 }
 
 });
+
+/* плавная прокрутка */
+
+$(document).ready(function(){
+	// плавное перемещение страницы к нужному блоку
+	$("nav li a").click(function () {
+		elementClick = $(this).attr("href");
+		destination = $(elementClick).offset().top;
+		$("body,html").animate({scrollTop: destination }, 800);
+	});
+});
+
+/*  кнопка вверх */
+/* $(document).ready(function(){
+	// появление/затухание кнопки #back-top
+	$(function (){
+		// прячем кнопку #back-top
+		$("#back-top").hide();
+
+		$(window).scroll(function (){
+			if ($(this).scrollTop() > 100){
+				$("#back-top").fadeIn();
+			} else{
+				$("#back-top").fadeOut();
+			}
+		});
+
+		// при клике на ссылку плавно поднимаемся вверх
+		$("#back-top a").click(function (){
+			$("body,html").animate({
+				scrollTop:0
+			}, 800);
+			return false;
+		});
+	});
+});
+ кнопка вверх */
+$(document).ready(function(){
+    $(function (){
+    $("#back-top").hide();
+
+    $(window).scroll(function (){
+      if ($(this).scrollTop() > 500){
+        $("#back-top").fadeIn();
+      } else{
+        $("#back-top").fadeOut();
+      }
+    });
+
+    $("#back-top a").click(function (){
+      $("body,html").animate({
+        scrollTop:0
+      }, 800);
+      return false;
+    });
+  });
+});
